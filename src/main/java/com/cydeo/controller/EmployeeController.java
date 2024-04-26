@@ -5,6 +5,7 @@ import com.cydeo.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.management.modelmbean.ModelMBean;
@@ -24,5 +25,9 @@ public class EmployeeController {
     }
 
 
+    @PostMapping("/insert")
+    public String insertEmployee(){
+
+    }
 
 }
